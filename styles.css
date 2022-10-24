@@ -1,0 +1,38 @@
+#title, #description{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,Candara;
+  font-weight: 900;
+}
+#love-emo{
+  color: red;
+  font-size: 25px;
+}
+#survey-form{
+  margin:2px auto;
+  width:600px;
+}
+.info-sec{
+  display: flex;
+  flex-direction: column;
+}
+.radio-sec{
+  margin-top: 10px;
+}
+.dropdown-sec{
+  margin-top:10px;
+}
+.checkbox-sec{
+  margin-top:10px;
+}
+.last-last{
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+}
+#submit{
+  width:100px;
+  margin-top: 7px;
+}
+fieldset{
+  border:1px solid black;
+}

@@ -1,2 +1,2 @@
 # Survey-Form
-classic survey form
+Making a simple survey form

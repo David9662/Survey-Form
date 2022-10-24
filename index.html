@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">made with <span id="love-emo">&#9829</span> by Davie</p>
+  </header>
+
+  <form id= "survey-form">
+    <fieldset class="info-sec">
+      <label id="name-label">Name:</label>
+      <input required type="text" id="name" placeholder="enter name here">
+      <label id="email-label">Email:</label>
+      <input required id="email" type="email" placeholder="enter email here">
+      <label id="number-label" >Number:</label>
+      <input placeholder=18 id="number" type="number" min=18 max=120>
+    </fieldset>
+
+    <fieldset class="radio-sec">
+      <p>Please select your gender:</p>
+      <input id="male" value=2 type="radio" name="myradio">
+      <label for="male">Male</label><br/>
+      <input id="female" value="1" type="radio" name="myradio">
+      <label for="female">Female</label>
+    </fieldset>
+
+    <fieldset class="dropdown-sec">
+      <label for="dropdown">Choose a programming language:</label>
+      <select id="dropdown">
+        <option value="">select one</option>
+        <option value="">Python</option>
+        <option value="">Java</option>
+        <option value="">Javascript</option>
+      </select>
+    </fieldset>
+    
+    <fieldset class="checkbox-sec">
+      <p>How many years of programming experience do you have?</p>
+      <input id=exp1 value=1 type="checkbox">
+      <label for="exp1">1-3 years</label><br>
+      <input id="exp2" value=2 type="checkbox">
+      <label for="exp2">More than years</label>
+    </fieldset>  
+
+    <fieldset class="last-last">
+      <label>Bio:</label>
+      <textarea></textarea>
+      <label></label>
+      <input type="submit" id="submit">
+    </fieldset>
+
+    
+  </form>
+  
+</body>
